@@ -24,10 +24,10 @@ Ini adalah proyek API backend yang dibuat dengan **Laravel 12** sebagai bagian d
 
 ## Instalasi & Konfigurasi
 
-Ikuti langkah-langkah berikut untuk menjalankan proyek ini di lingkungan lokal Anda.
+Ikuti langkah-langkah berikut untuk menjalankan proyek ini di lingkungan lokal.
 
 ### 1. Clone Repositori
-Pertama, clone repositori ini ke mesin lokal Anda.
+Pertama, clone repositori ini ke mesin lokal.
 ```bash
 git clone https://github.com/ReszaDN/ApiManagementPinjamBuku.git
 ```
@@ -39,7 +39,7 @@ composer install
 ```
 
 ### 3. Konfigurasi Environment
-Salin file `.env.example` menjadi file `.env`. File ini adalah tempat Anda menyimpan semua konfigurasi sensitif.
+Salin file `.env.example` menjadi file `.env`. File ini adalah tempat menyimpan semua konfigurasi sensitif.
 ```bash
 cp .env.example .env
 ```
@@ -49,7 +49,7 @@ php artisan key:generate
 ```
 
 ### 4. Konfigurasi Database
-Buka file `.env` dan sesuaikan pengaturan koneksi database Anda.
+Buka file `.env` dan sesuaikan pengaturan koneksi database.
 ```env
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -58,7 +58,7 @@ DB_DATABASE=adhivasindo
 DB_USERNAME=root
 DB_PASSWORD=
 ```
-Pastikan Anda sudah membuat database `adhivasindo` di MySQL Anda.
+Pastikan sudah membuat database `adhivasindo` di MySQL.
 
 ### 5. Jalankan Migrasi dan Seeder
 Perintah ini akan membuat semua struktur tabel database dan mengisinya dengan data awal (10 user dan 30 buku).
